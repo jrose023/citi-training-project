@@ -6,11 +6,12 @@
 
     <groupId>citi.training.project</groupId>
     <artifactId>JVA ETrading</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>0.1.0</version>
+    <packaging>war</packaging>
     <properties>
         <java.version>1.8</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <start-class>com.conygre.spring.boot.AppConfig</start-class>
+        <start-class>AppConfig</start-class>
     </properties>
     <parent>
         <groupId>org.springframework.boot</groupId>
